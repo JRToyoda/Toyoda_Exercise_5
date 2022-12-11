@@ -8,5 +8,5 @@ if not side_one.isnumeric() or not side_two.isnumeric() or not side_three.isnume
 elif side_one == side_two == side_three:
     print("The triangle is equilateral.\n ")
 
-elif side_one != "" or side_two != "" or side_three != "":
+else:
     print("The triangle is not equilateral.\n ")
